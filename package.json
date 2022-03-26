@@ -19,7 +19,8 @@
     "bitcoin-ts": "^1.12.0",
     "cli-ux": "^5.4.4",
     "enquirer": "^2.3.4",
-    "tslib": "^1"
+    "tslib": "^1",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@oclif/dev-cli": "^1",
@@ -84,7 +85,9 @@
     "test:lint": "eslint . --ext .ts",
     "test:prettier": "prettier \"src/**/*.ts\" --list-different",
     "test": "nyc --extension .ts mocha --forbid-only \"test/**/*.test.ts\"",
-    "version": "oclif-dev readme && git add README.md"
+    "version": "oclif-dev readme && git add README.md",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "types": "lib/index.d.ts",
   "prettier": {
@@ -94,5 +97,6 @@
     "commitizen": {
       "path": "cz-conventional-changelog"
     }
-  }
+  },
+  "snyk": true
 }
