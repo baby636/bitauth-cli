@@ -8,8 +8,8 @@
   },
   "bugs": "https://github.com/bitauth/bitauth-cli/issues",
   "dependencies": {
-    "@oclif/command": "^1",
-    "@oclif/config": "^1",
+    "@oclif/command": "^1.8.36",
+    "@oclif/config": "^1.18.17",
     "@oclif/plugin-autocomplete": "^0.1.5",
     "@oclif/plugin-help": "^2",
     "@oclif/plugin-not-found": "^1.2.3",
@@ -17,12 +17,12 @@
     "@oclif/plugin-warn-if-update-available": "^1.7.0",
     "ansi-colors": "^4.1.1",
     "bitcoin-ts": "^1.12.0",
-    "cli-ux": "^5.4.4",
+    "cli-ux": "^6.0.9",
     "enquirer": "^2.3.4",
     "tslib": "^1"
   },
   "devDependencies": {
-    "@oclif/dev-cli": "^1",
+    "@oclif/dev-cli": "^1.26.10",
     "@oclif/test": "^1",
     "@types/chai": "^4",
     "@types/mocha": "^7.0.1",
