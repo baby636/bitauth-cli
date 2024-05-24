@@ -22,7 +22,7 @@
     "tslib": "^1"
   },
   "devDependencies": {
-    "@oclif/dev-cli": "^1",
+    "@oclif/dev-cli": "^1.26.10",
     "@oclif/test": "^1",
     "@types/chai": "^4",
     "@types/mocha": "^7.0.1",
